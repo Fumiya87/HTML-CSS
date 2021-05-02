@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  background-image: url(img2/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: gray;
+}
+
+main {
+  width: 840px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.blog-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.blog-text {
+  display: flex;
+  justify-content: flex-start;
+}
